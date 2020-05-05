@@ -1,0 +1,25 @@
+I"�<p>Khi dùng trình duyệt google chrome, một số trang bị lỗi font mà trên firefox không bị.</p>
+
+<p>Đó là do máy của bạn thiếu một số font chữ. Hãy cài thêm font cho đầy đủ. Bạn có thể gỡ bỏ toàn bỏ font chữ rồi cài lại hoặc cài đè lên font chữ đã có.</p>
+
+<h3 id="gỡ-bỏ-font-chữ">Gỡ bỏ font chữ</h3>
+<p>Trước khi gỡ bỏ, bạn nên tắt hết ứng dụng, các ứng dụng dùng font chữ để hiện thị nội dung vì thế sẽ không xóa font được.</p>
+
+<h4 id="cách-1-vào-control-panel--font-chọn-toàn-bỏ-font-chữ-ở-dưới-rồi-click-vào-delete">Cách 1. Vào Control Panel &gt; Font. Chọn toàn bỏ font chữ ở dưới rồi click vào delete</h4>
+
+<p><img src="/assets/img/thu_thuat/font_chrome/1.png" alt="Xóa font chữ với controlpanel" /></p>
+
+<h4 id="cách-2-nhấn-tổ-hợp-phím-window--r-vào-run-gõ-regedit-vào-theo-đường-dẫn">Cách 2: Nhấn tổ hợp phím window + R (vào run), gõ regedit. Vào theo đường dẫn</h4>
+
+<p><em>win32</em>: <code class="highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</code><br />
+<em>win64</em>: <code class="highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Fonts</code></p>
+
+<p><img src="/assets/img/thu_thuat/font_chrome/2.jpg" alt="Xóa font với registry" /></p>
+
+<p>Cài font chữ
+Vào thư mục font trong control panel, copy toàn bộ file font full vào.</p>
+
+<p>Vào google chrome và thấy thành quả</p>
+
+<p>Link <a href="http://1drv.ms/1o2zqow">Font full 3500</a></p>
+:ET
