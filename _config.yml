@@ -1,0 +1,35 @@
+title: I'm GiangSoda
+description: > # this means to ignore newlines until "baseurl:"
+  Cuộc sống là không chờ đợi
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Giang Soda # add your name
+author-img: giangsoda.jpg # add your photo
+about-author: Tôi là Giang Soda
+# social-twitter: Null # add your Twitter handle
+social-facebook: giangsoda
+# social-github: Null
+# social-linkedin: Null # add your Linkedin handle
+# social-email: Null # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
